@@ -112,3 +112,9 @@ CPU 모드와 달리, 사용자가 외부 입력핀(`ui_in`, `uio_in`)을 통해
 2.  PC와 보드를 UART 통신으로 연결합니다.
 3.  시리얼 터미널 프로그램(예: PuTTY, MobaXterm)을 열고, 9600bps 속도로 포트를 엽니다.
 4.  CPU 모드에서 동작시키면, 터미널에 명령어 처리 결과가 실시간으로 출력됩니다.
+-------
+참고 자료
+https://github.com/gotree94/JSilicon
+https://github.com/mirseo
+
+
