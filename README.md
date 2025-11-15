@@ -58,12 +58,12 @@ CPU 모드에서 하나의 명령어가 처리되는 과정입니다.
 
 ```mermaid
 flowchart TD
-    A[Start] --> B{1. PC: 명령어 가져오기 (Fetch)};
-    B --> C{2. DECODER: 명령어 해석 (Decode)};
-    C --> D{3. ALU: 연산 수행 (Execute)};
-    D --> E{4. REG: 결과 저장 (Write-Back)};
-    E --> F{5. FSM: UART로 결과 전송};
-    F --> G{6. FSM: 'instruction_finished' 신호 발생};
+    A[Start] --> B["1. Fetch (PC)"];
+    B --> C["2. Decode (DECODER)"];
+    C --> D["3. Execute (ALU)"];
+    D --> E["4. Write-Back (REG)"];
+    E --> F["5. Send via UART (FSM)"];
+    F --> G["6. Finish Signal (FSM)"];
     G --> B;
 ```
 
