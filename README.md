@@ -3,7 +3,31 @@
 이 프로젝트는 Verilog HDL을 사용하여 설계된 간단한 8비트 CPU입니다. 사용자가 직접 제어하는 **Manual 모드**와 프로그램에 따라 자동으로 명령어를 실행하는 **CPU 모드**를 지원하며, 모든 연산 결과는 UART 통신을 통해 외부로 출력됩니다.
 
 ## 사용 보드 
-BASYS 3
+Digilent BASYS 3
+
+<img width="600" height="376" alt="basys-3-2" src="https://github.com/user-attachments/assets/32f80ba8-0add-4b61-a1a8-08d3c30d0bd7" />
+
+### <a href="https://digilent.com/reference/programmable-logic/basys-3/start">Digilent Basys3</a>
+   * AMD Artix™ 7 FPGA Trainer Board
+   * Features
+      * On-chip analog-to-digital converter
+   * Key Specifications
+      * FPGA Part # XC7A35T-1CPG236C
+      * Logic Cells 33,280 in 5200 slices
+      * Block RAM 1,800 Kbits
+      * DSP Slices 90
+      * Internal clock 450 MHz+
+   * Connectivity and Onboard I/O
+      * Pmod Connectors 3
+      * Switches 16
+      * Buttons 5
+      * User LED 16
+      * 7-Seg Display 4-Digit
+      * VGA 12-bit
+      * USB HID Host (KB/Mouse/Mass Storage)
+   * Electrical
+      * Power USB 5v (Pins)
+      * Logic Level 3.3v
 
 ## ✨ 주요 특징
 
